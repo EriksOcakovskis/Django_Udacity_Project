@@ -103,7 +103,7 @@ ROOT_URLCONF = 'cs253.urls'
 WSGI_APPLICATION = 'cs253.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/app/.heroku/templates"
+    "/templates"
 )
 
 INSTALLED_APPS = (
