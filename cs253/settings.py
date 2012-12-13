@@ -103,7 +103,7 @@ ROOT_URLCONF = 'cs253.urls'
 WSGI_APPLICATION = 'cs253.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/home/ocakovskise/Dropbox/coding/web/Django_Udacity_Project/cs253/templates"
+    "/app/.heroku/templates"
 )
 
 INSTALLED_APPS = (
