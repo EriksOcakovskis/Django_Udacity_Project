@@ -1,4 +1,8 @@
 # Django settings for cs253 project.
+import os
+import sys
+import platform
+import urlparse
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -101,6 +105,8 @@ ROOT_URLCONF = 'cs253.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'cs253.wsgi.application'
+
+SITE_ROOT = os.path.dirname(__file__)
 
 TEMPLATE_DIRS = (
     os.path.join(SITE_ROOT, 'templates')
